@@ -1,2 +1,2 @@
 # Monitoring
-Spring Cloud Object of ostock
+Spring Cloud project, base on *Spring Microservices in Action*
