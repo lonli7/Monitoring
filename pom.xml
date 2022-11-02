@@ -21,6 +21,10 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <modules>
+        <module>configserver</module>
+    </modules>
+
     <!--全局父依赖-->
     <dependencies>
         <dependency>
