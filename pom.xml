@@ -23,6 +23,7 @@
 
     <modules>
         <module>configserver</module>
+        <module>eurekaserver</module>
     </modules>
 
     <!--全局父依赖-->
