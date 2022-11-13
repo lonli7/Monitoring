@@ -58,7 +58,7 @@ public class LicenseService {
             license.setContactEmail(organization.getContactEmail());
             license.setContactPhone(organization.getContactPhone());
         }
-        return license.withComment("config.getExampleProperty()");
+        return license.withComment(config.getExampleProperty());
     }
 
     public License createLicense(License license) {

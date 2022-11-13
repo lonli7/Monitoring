@@ -10,7 +10,14 @@ public class ServiceConfig{
 
     private String property;
 
+    @Value("${example.property}")
+    private String exampleProperty;
+
     public String getProperty(){
         return this.property;
+    }
+
+    public String getExampleProperty() {
+        return exampleProperty;
     }
 }
