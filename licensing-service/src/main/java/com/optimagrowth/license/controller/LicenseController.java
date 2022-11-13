@@ -69,4 +69,13 @@ public class LicenseController {
 
         return ResponseEntity.ok(this.licenseService.deleteLicence(licenseId));
     }
+
+    @GetMapping(value = "/{licenseId}/{clientType}")
+    public License getLicenseWithClient(
+            @PathVariable("organizationId") String organizationId,
+            @PathVariable("licenseId") String licenseId,
+            @PathVariable("clientType") String clientType
+    ) {
+        return this.licenseService.getLicense(organizationId, licenseId, clientType);
+    }
 }
